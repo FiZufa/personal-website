@@ -1,5 +1,5 @@
 <template>
-    <h3>🎓Relavant Undergraduate Coursework Projects</h3>
+    <h2>🎓Relavant Undergraduate Coursework Projects</h2>
 
     <div class="porto-section">
         
@@ -13,10 +13,26 @@
             <div class="buttons">buttons</div>
         </div>
     </div>
+
+    <h2>📕Mentorship & Project-based Internship</h2>
+
+    <div class="pbi-section">
+
+    </div>
 </template>
 <script>
 import { Divider } from '#components';
-import axios from "axios";
+// import axios from "axios";
+import CourseProject from '@/data/CourseProject.json';
+import PBIProject from '@/data/PBIProject.json';
+
+export default {
+  data() {
+    return {
+      data: CourseProject, PBIProject
+    };
+  },
+};
 </script>
 <style>
 html, body {
