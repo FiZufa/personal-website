@@ -6,7 +6,7 @@
         <div class="left">
             <img class="profile-img" src="assets/profile.png">
 
-            <p class="email">Contact: fitria.zusni06@gmail.com</p>
+            <p class="email">Email: fitria.zusni06@gmail.com</p>
             <div class="social-media">
                 <img class="linkedin-icon" src="assets/icon_linkedin.png">
                 <img class="github-icon" src="assets/icon_github.png">
@@ -21,7 +21,7 @@
                 <p>Hi there! 👋</p>
                 <p>I'm a final-year student majoring in <span class="pink">Computer Science and Engineering at Southern University of Science and Technology (SUSTech / 南方科技大学)</span>, China. </p>
                 <p>Currently, my interests lie at the intersection of technology, data, and design. </p>
-                <p>Specificaly:</p>
+                <p>Specifically:</p>
                 <p>
                     <ul>
                         <li>turning data into actionable insights and building machine learning models</li>
@@ -36,10 +36,29 @@
 
     </div>
 
+    <Divider />
+
+    <div class="about-me">
+        <h1>About me</h1>
+        <div>
+            <p>I grew up in Nganjuk, East Java, Indonesia, and have been living in Shenzhen, China, for over two years to pursue my undergraduate studies. 🎓</p>
+            <p>Apart from my study, I enjoy learning new things, especially in areas such as psychology 👤, neurobiology 🧠, children development 👨‍👩‍👧‍👦, health 💪, and nutrition 🍒.</p>
+            <p>My hobbies are reading, cooking, running, biking, flexibility training (a.k.a. yoga), and listening to musics. I like reading novels and books related to psychology and neurobiology 📖.  I am not a competitive runner, but I enjoy 2k meters running every morning while listening to musics 🏃‍♀️🎶🌞. I like to cook my home dishes, especially Indonesian food! Let me know if you have an interesting recipe—I’d love to learn it! 🍳😋</p>
+            <p>I speak Indonesian (Bahasa) as my native language and use English on a daily basis. Furthermore, I also learn Chinese as my third language!😊</p>
+            <p>Feel free to explore my social media or connect with me! ✨</p>
+        </div>
+
+    </div>
+
+
+    <Footer />
+
 </template>
 <script>
-import Header from '@/components/Header.vue'
+import Header from '@/components/Header.vue';
 // import { HeroIcon } from '@heroicons/vue';
+import Divider from '@/components/Divider.vue';
+import { Footer } from '#components';
 
 </script>
 <style>
@@ -55,7 +74,7 @@ html, body {
 
 .body {
     margin: 32px 180px;
-    padding: 48px 18px;
+    padding: 48px 0;
     height: 500px;
     width: 1080px;
     border: 1px solid #ccc;
@@ -117,6 +136,9 @@ html, body {
 .email:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+.about-me{
+    margin: 0 180px;
 }
 
 </style>
