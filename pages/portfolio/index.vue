@@ -1,7 +1,7 @@
 <template>
     <Header />
     <div class="porto-body">
-        <h1 style="font-weight: normal;">Portfolio</h1>
+        <h1 style="font-weight: 550;">Portfolio</h1>
         <PortoCourse />
     </div>
 

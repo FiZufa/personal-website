@@ -15,8 +15,10 @@
         </div>
         <div class="right">
             <div class="right-content">
-                <h1>Fitria Zusni Farida</h1>
-                <p>(she/her)</p>
+                <div class="my-name">
+                    <h1 style="margin-bottom: 1px;">Fitria Zusni Farida</h1>
+                    <p style="margin-top: 0;">(she/her)</p>
+                </div>
 
                 <p>Hi there! 👋</p>
                 <p>I'm a final-year student majoring in <span class="pink">Computer Science and Engineering at Southern University of Science and Technology (SUSTech / 南方科技大学)</span>, China. </p>
@@ -25,7 +27,7 @@
                 <p>
                     <ul>
                         <li>turning data into actionable insights and building machine learning models</li>
-                        <li>solving problems through user-centered design to create usable and intuitive experiences</li>
+                        <li>solving problems through user-centered design to create intuitive experiences</li>
                         <li>building deliverable software systems and exploring software engineering concepts.</li>
                     </ul>
                 </p>
@@ -36,7 +38,7 @@
 
     </div>
 
-    <Divider />
+    <div class="divider"></div>
 
     <div class="about-me" id="about-me">
         <h1>About me 🍃</h1>
@@ -117,6 +119,10 @@ html, body {
     gap: 10px;
 }
 
+.my-name {
+    border-bottom: #ccc 0.5px solid;
+}
+
 .social-media img {
     width: 42px;
     height: 42px;
@@ -141,4 +147,8 @@ html, body {
     margin: 0 180px;
 }
 
+.divider {
+    border-top: 1px #ccc solid;
+    margin: 64px 180px;
+}
 </style>
