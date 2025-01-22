@@ -133,18 +133,33 @@ h2 {
   display: inline-block;
 }
 
+.button-link:hover {
+  background-color: #2374e6;
+}
+
 .button-link.github {
   background-color: #3AA74E; /* GitHub button color */
+}
+
+.button-link.github:hover {
+  background-color: #2f9a42;
 }
 
 .button-link.slides {
   background-color: #FF5F5F; /* Slides button color */
 }
 
+.button-link.slides:hover {
+  background-color: #e65050;
+}
+
 .button-link.prototype {
   background-color: #CEB150;
 }
 
+.button-link.prototype:hover {
+  background-color: #bea03f;
+}
 .line {
   border-top: #ccc solid 1px;
   margin: 48px 0;
