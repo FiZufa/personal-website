@@ -36,7 +36,7 @@
             <h1 class="sub-title">Awards</h1>
             <div v-for="(award, index) in data.awards" :key="index" class="award">
                 <p class="bold">{{ award.name }}</p>
-                <p>{{ award.issuer }}</p>
+                <p style="font-style: italic;">{{ award.issuer }}</p>
                 <p>{{ award.time }}</p>
                 <p>{{ award.desc }}</p>
             </div>
@@ -60,7 +60,7 @@
             <h1 class="sub-title">Activities</h1>
             <div v-for="(act, index) in data.activities" :key="index" class="activity">
                 <p><span class="bold">{{ act.role }}</span>, {{ act.name }}</p>
-                <p>{{ act.issuer }}</p>
+                <p style="font-style: italic;">{{ act.issuer }}</p>
                 <p>{{ act.where }}</p>
                 <p>{{ act.desc }}</p>
             </div>

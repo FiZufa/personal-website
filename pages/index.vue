@@ -53,7 +53,7 @@
     <div class="about-me" id="about-me">
         <h1>About me 🍃</h1>
         <div>
-            <p>I grew up in Nganjuk, East Java, Indonesia, and have been living in Shenzhen, China, for over two years to pursue my undergraduate studies. 🎓</p>
+            <p>I grew up in Nganjuk, East Java, Indonesia, and have been living in Shenzhen, China, for over two years to pursue my undergraduate studies🎓.</p>
             <p>Apart from my study, I enjoy learning new things, especially in areas such as psychology 👤, neurobiology 🧠, children development 👨‍👩‍👧‍👦, health 💪, and nutrition 🍒.</p>
             <p>My hobbies are reading, cooking, running, biking, flexibility training (a.k.a. yoga), and listening to musics. I like reading novels and books related to psychology and neurobiology 📖.  I am not a competitive runner, but I enjoy 2k meters running every morning while listening to musics 🏃‍♀️🎶🌞. I like to cook my home dishes, especially Indonesian food! Let me know if you have an interesting recipe—I’d love to learn it! 🍳😋</p>
             <p>I speak Indonesian (Bahasa) as my native language and use English on a daily basis. Furthermore, I also learn Chinese as my third language!😊</p>
