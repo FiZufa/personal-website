@@ -1,7 +1,7 @@
 <template>
   <div class="line-1"></div>  
   
-  <h2>🎓Relavant Undergraduate Coursework Projects</h2>
+  <h2>🎓Relevant Undergraduate Coursework Projects</h2>
 
     <div class="porto-section">
         

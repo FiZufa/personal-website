@@ -26,7 +26,7 @@
             <p>Southern University of Science and Technology (SUSTech / 南方科技大学)</p>
             <p><span class="bold">Bachelor</span>, Department of Computer Science and Engineering</p>
             <p>September 2021 - June 2025 (Expected graduation) </p>
-            <p>Relavant courseworks: Algorithm Design and Analysis, Artificial Intelligence, C/C++ Programming Design, Computer Networks, Computer System Design, Data Structures and Algorithm, Deep Learning, Discrete Mathematics, Machine Learning, Object-oriented Analysis and Design, Operating Systems, Principle of Database Systems, Probability and Statistics, Software Engineering</p>
+            <p>Relevant courseworks: Algorithm Design and Analysis, Artificial Intelligence, C/C++ Programming Design, Computer Networks, Computer System Design, Data Structures and Algorithm, Deep Learning, Discrete Mathematics, Machine Learning, Object-oriented Analysis and Design, Operating Systems, Principle of Database Systems, Probability and Statistics, Software Engineering</p>
             
         </div>
 
