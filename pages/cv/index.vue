@@ -71,7 +71,7 @@
         <div class="section">
             <h1 class="sub-title">Certifications</h1>
             <div v-for="(certif, index) in data.certifications" :key="index" class="certif">
-                <p class="bold">{{ certif.name }}</p>
+                <a style="text-decoration: none;" :href="certif.link" target="_blank" rel="noopener noreferrer"><p class="bold">{{ certif.name }}</p></a>
                 <p>{{ certif.when }}</p>
             </div>
         </div>
