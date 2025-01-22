@@ -30,7 +30,7 @@
                     <p style="margin-top: 0;">(she/her)</p>
                 </div>
 
-                <p>Hi there! 👋</p>
+                <p>Hello world! 👋</p>
                 <p>I'm a final-year student majoring in <a class="pink" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer">Computer Science and Engineering at Southern University of Science and Technology (SUSTech / 南方科技大学)</a>, China. </p>
                 <p>Currently, my interests lie at the intersection of technology, data, and design. </p>
                 <p>Specifically:</p>

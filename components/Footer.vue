@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <p>Made with 💗</p>
+        <p>Made by Fitria with ♥️</p>
     </div>
 </template>
 <script>
@@ -14,7 +14,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 12px;
+    color: #ccc;
 }
+
 
 
 
