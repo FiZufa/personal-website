@@ -11,10 +11,10 @@
     {
       "name": "Ancient to Modern Chinese Machine Translation",
       "tags": ["Machine Learning", "NLP"],
-      "description": "The machine translation model uses an encoder-decoder architecture, including the Transformer, to translate ancient Chinese into modern Chinese. The experiment involves a Transformer model with the encoder implemented using BERT and the decoder using GPT for the sequence-to-sequence task, specifically machine translation. This project was lead by @LamNguyen and supervised by @Prof. Yang Xu.",
+      "description": "The machine translation model uses an encoder-decoder architecture, including the Transformer, to translate ancient Chinese into modern Chinese. The experiment involves a Transformer model with the encoder implemented using BERT and the decoder using GPT for the sequence-to-sequence task, specifically machine translation. This project was led by @LamNguyen and supervised by @Prof. Yang Xu.",
       "course": "Group Project III Fall 2024",
       "links": {
-        "Slides": ""
+        "Slides": "https://drive.google.com/file/d/1JNjTduH1_wAFeAZdeoMTwEwsgnP5Tont/view?usp=sharing"
       }
     },
     {
@@ -51,7 +51,7 @@
         "course": "Machine Learning (CS405) Fall 2023",
         "links": {
             "Github": "https://github.com/FiZufa/CS405-Machine-Learning-Final-Project",
-            "Slides": ""
+            "Slides": "https://drive.google.com/file/d/1qJaYjqfGPry8lZ3Ra2OD532NtZa2jtjX/view?usp=sharing"
         }
     }
 ]

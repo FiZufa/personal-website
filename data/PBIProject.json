@@ -6,7 +6,8 @@
         "course": "Rakamin Academy",
         "period": "October 2024 - February 2025",
         "links": {
-            "Github": ""
+            "Github": "https://github.com/FiZufa/Final-Project-Rakamin",
+            "Slides": ""
         }
     },
     {
@@ -27,19 +28,19 @@
         "course": "Gamelab Indonesia",
         "period": "August 2024",
         "links": {
-            "Prototype": "",
-            "Case study": ""
+            "Prototype": "https://www.figma.com/proto/mpFlBZAS15Za3OI8mYhiHq/Final-Project?node-id=60-278&t=CJb28KOlr1J9DVIK-1",
+            "Case study": "https://drive.google.com/file/d/1-9IuZxswUbgAcuHHdmSuMl2fDGX0zQtY/view?usp=sharing"
         }
     },
     {
         "name": "Dicoding Website UI Enhancement",
         "tags": ["UI/UX Design"],
-        "description": "Enhanced the user interface of the Dicoding website to improve usability, accessibility, and overall user experience. Collaborated with peers and mentors to create wireframes and high-fidelity prototypes to visualize and refine the design, and conducted usability testing to address user pain points.",
+        "description": "Enhanced the user interface of the Dicoding website to improve usability, accessibility, and overall user experience. Collaborated with peers and mentors to create wireframes and high-fidelity prototypes to visualize and refine the design, and conducted usability testing to address user pain points. This project was collaborated with @Fadhila.",
         "course": "SISTECH UI/UX Design RISTEK University of Indonesia",
         "period": "July 2024",
         "links": {
-            "Prototype": "",
-            "Case study": ""
+            "Prototype": "https://www.figma.com/design/6h6DUP0cTw0RDpBvMZGv6I/SISTECH-UX-Case-Study?node-id=1-2&t=j9ER3CLX9V1hXlvU-1",
+            "Case study": "https://www.figma.com/proto/P2Jq2pDBGCs1a4DUaMb1Xf/Research-deck-Dicoding?node-id=0-414&p=f&t=bB7Yq673YQcKV0Zc-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
         }
     }
 ]
