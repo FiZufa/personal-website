@@ -1,11 +1,143 @@
 <template>
     <Header />
 
+    <div class="cv-body">
+        <div class="section">
+            <h1 class="sub-title">Bio</h1>
+            <p>Final-year Computer Science and Engineering student at Southern University of Science and Technology (SUSTech), China. Passionate about building actionable insights and machine learning model from data, solving problems through user-centered design, and creating deliverable software systems. Actively seeking internship or full-time opportunities for 2025 to contribute to innovative and impactful projects.</p>
+        </div>
+
+        <Line />
+
+        <div class="section">
+            <h1 class="sub-title">Skills and Tools</h1>
+            <ul>
+                <li v-for="(value, key) in data.dataSkills" :key="key">
+                  <span class="bold">{{ key }}</span>: {{ value }}
+                </li>
+            </ul>
+              
+        </div>
+
+        <Line />
+
+        <div class="section-edu">
+            <h1 class="sub-title">Education</h1>
+            <p>Southern University of Science and Technology (SUSTech / 南方科技大学)</p>
+            <p><span class="bold">Bachelor</span>, Department of Computer Science and Engineering</p>
+            <p>September 2021 - June 2025 (Expected graduation) </p>
+            <p>Relavant courseworks: Algorithm Design and Analysis, Artificial Intelligence, C/C++ Programming Design, Computer Networks, Computer System Design, Data Structures and Algorithm, Deep Learning, Discrete Mathematics, Machine Learning, Object-oriented Analysis and Design, Operating Systems, Principle of Database Systems, Probability and Statistics, Software Engineering</p>
+            
+        </div>
+
+        <Line />
+
+        <div class="section">
+            <h1 class="sub-title">Awards</h1>
+            <div v-for="(award, index) in data.awards" :key="index" class="award">
+                <p class="bold">{{ award.name }}</p>
+                <p>{{ award.issuer }}</p>
+                <p>{{ award.time }}</p>
+                <p>{{ award.desc }}</p>
+            </div>
+
+        </div>
+
+        <Line />
+
+        <div class="section">
+            <h1 class="sub-title">Training</h1>
+            <div v-for="(training, index) in data.trainings" :key="index" class="training">
+                <p class="bold">{{ training.name }}</p>
+                <p>{{ training.time }}</p>
+                <p>{{ training.desc }}</p>
+            </div>
+        </div>
+
+        <Line />
+
+        <div class="section">
+            <h1 class="sub-title">Activities</h1>
+            <div v-for="(act, index) in data.activities" :key="index" class="activity">
+                <p><span class="bold">{{ act.role }}</span>, {{ act.name }}</p>
+                <p>{{ act.issuer }}</p>
+                <p>{{ act.where }}</p>
+                <p>{{ act.desc }}</p>
+            </div>
+        </div>
+
+        <Line />
+
+        <div class="section">
+            <h1 class="sub-title">Certifications</h1>
+            <div v-for="(certif, index) in data.certifications" :key="index" class="certif">
+                <p class="bold">{{ certif.name }}</p>
+                <p>{{ certif.when }}</p>
+            </div>
+        </div>
+        
+    
+    </div>
+
+    <Footer />
+
 </template>
 <script>
-import Header from '@/components/Header.vue'
+import Header from '@/components/Header.vue';
+import dataSkills from '@/data/data_skills.json';
+import awards from '@/data/data_awards.json';
+import trainings from '@/data/data_training.json';
+import activities from '@/data/data_activities.json';
+import certifications from '@/data/data_certification.json';
+
+import Line from '~/components/Line.vue';
+import { Footer } from '#components';
+
+export default {
+  data() {
+    return {
+      data: {
+        dataSkills,
+        awards,
+        trainings,
+        activities,
+        certifications
+      },
+    };
+  },
+};
 
 </script>
 <style>
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.cv-body{
+    margin: 32px 180px;
+}
+
+.sub-title {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 650;
+}
+
+
+.award p, .training p, .activity p, .certif p, .section-edu p {
+    margin: 4px 0; /* Adjust the value as needed */
+}
+
+.award, .training, .activity, .certif {
+    margin-top: 8px;
+}
+
 
 </style>

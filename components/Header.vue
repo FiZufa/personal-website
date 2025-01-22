@@ -68,7 +68,7 @@ html, body {
     cursor: pointer;
     font-size: 1em;
     gap: 0.1em;
-    opacity: 70%;
+    opacity: 60%;
   }
 
   button:hover {
