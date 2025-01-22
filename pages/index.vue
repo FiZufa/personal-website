@@ -4,22 +4,22 @@
     <div class="body">
 
         <div class="left">
-            <img class="profile-img" src="./assets/profile.png">
+            <img class="profile-img" src="assets/profile.png">
 
             <p class="email">Email: fitria.zusni06@gmail.com</p>
             <div class="social-media">
                 
                 <a href="https://linkedin.com/in/fitria-zusni-farida" target="_blank" rel="noopener noreferrer">
-                    <img class="linkedin-icon" src="./assets/icon_linkedin.png" alt="linkedin icon">
+                    <img class="linkedin-icon" src="assets/icon_linkedin.png" alt="linkedin icon">
                 </a> 
                 <a href="https://github.com/FiZufa" target="_blank" rel="noopener noreferrer">
-                    <img class="github-icon" src="./assets/icon_github.png" alt="GitHub Icon">
+                    <img class="github-icon" src="assets/icon_github.png" alt="GitHub Icon">
                 </a>
                 <a href="https://medium.com/@fi.zufa0612" target="_blank" rel="noopener noreferrer">
-                    <img class="medium-icon" src="./assets/icon_medium.png" alt="medium icon">
+                    <img class="medium-icon" src="assets/icon_medium.png" alt="medium icon">
                 </a>               
                 <a href="https://id.pinterest.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="pinterest-icon" src="./assets/icon_pinterest.png" alt="pinterest icon">
+                    <img class="pinterest-icon" src="assets/icon_pinterest.png" alt="pinterest icon">
                 </a>      
             </div>
         </div>
