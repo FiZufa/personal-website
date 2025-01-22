@@ -8,10 +8,19 @@
 
             <p class="email">Email: fitria.zusni06@gmail.com</p>
             <div class="social-media">
-                <img class="linkedin-icon" src="assets/icon_linkedin.png">
-                <img class="github-icon" src="assets/icon_github.png">
-                <img class="medium-icon" src="assets/icon_medium.png">
-                <img class="pinterest-icon" src="assets/icon_pinterest.png"
+                
+                <a href="https://linkedin.com/in/fitria-zusni-farida" target="_blank" rel="noopener noreferrer">
+                    <img class="linkedin-icon" src="assets/icon_linkedin.png" alt="linkedin icon">
+                </a> 
+                <a href="https://github.com/FiZufa" target="_blank" rel="noopener noreferrer">
+                    <img class="github-icon" src="assets/icon_github.png" alt="GitHub Icon">
+                </a>
+                <a href="https://medium.com/@fi.zufa0612" target="_blank" rel="noopener noreferrer">
+                    <img class="medium-icon" src="assets/icon_medium.png" alt="medium icon">
+                </a>               
+                <a href="https://id.pinterest.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="pinterest-icon" src="assets/icon_pinterest.png" alt="pinterest icon">
+                </a>      
             </div>
         </div>
         <div class="right">
@@ -22,7 +31,7 @@
                 </div>
 
                 <p>Hi there! 👋</p>
-                <p>I'm a final-year student majoring in <span class="pink">Computer Science and Engineering at Southern University of Science and Technology (SUSTech / 南方科技大学)</span>, China. </p>
+                <p>I'm a final-year student majoring in <a class="pink" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer">Computer Science and Engineering at Southern University of Science and Technology (SUSTech / 南方科技大学)</a>, China. </p>
                 <p>Currently, my interests lie at the intersection of technology, data, and design. </p>
                 <p>Specifically:</p>
                 <p>
