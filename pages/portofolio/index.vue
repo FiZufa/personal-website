@@ -1,15 +1,18 @@
 <template>
     <Header />
     <div class="porto-body">
-        <h1>Portofolio</h1>
+        <h1 style="font-weight: normal;">Portofolio</h1>
         <PortoCourse />
     </div>
+
+    <Footer />
     
 
 </template>
 <script>
 import Header from '@/components/Header.vue'
 import { PortoCourse } from '#components';
+import { Footer } from '#components';
 
 </script>
 <style>

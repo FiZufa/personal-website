@@ -1,5 +1,7 @@
 <template>
-    <h2>🎓Relavant Undergraduate Coursework Projects</h2>
+  <div class="line-1"></div>  
+  
+  <h2>🎓Relavant Undergraduate Coursework Projects</h2>
 
     <div class="porto-section">
         
@@ -25,6 +27,8 @@
             </div>
       </div>
     </div>
+
+    <div class="line"></div>
 
     <h2>📕Mentorship & Project-based Internship</h2>
 
@@ -55,10 +59,13 @@
       </div>
 
     </div>
+
 </template>
 <script>
 import CourseProject from '@/data/CourseProject.json';
 import PBIProject from '@/data/PBIProject.json';
+import { Divider } from '#components';
+import { Footer } from '#components';
 
 export default {
   data() {
@@ -81,6 +88,30 @@ html, body {
 
 }
 
+h2 {
+  font-weight: normal; /* Makes the text not bold */
+}
+
+.porto-section {
+  line-height: 1.2;
+}
+
+.projects h3, .pbi-projects h3 {
+  margin-bottom: 4px;
+}
+
+.tags{
+  margin-bottom: 2px;
+}
+
+.projects p, .pbi-projects p {
+  margin: 8px 0;
+}
+
+.projects, .pbi-projects {
+  margin: 24px 0;
+}
+
 .tag {
   background-color: black;
   opacity: 0.8;
@@ -88,7 +119,7 @@ html, body {
   color: #fff;
   font-size: 10px;
   padding: 2px 8px;
-  margin: 0 2px;
+  margin: -2px 2px;
   
 }
 
@@ -112,6 +143,16 @@ html, body {
 
 .button-link.prototype {
   background-color: #CEB150;
+}
+
+.line {
+  border-top: #ccc solid 1px;
+  margin: 48px 0;
+}
+
+.line-1 {
+  border-top: #ccc solid 1px;
+  margin: 32px 0;
 }
 
 
