@@ -1,0 +1,15 @@
+[
+    {
+        "Programming Languages": "Python, Java (Object-oriented Programming)",
+        "Web Development": "HTML, CSS, JavaScript, Vue.js",
+        "Data Analysis": "PosgreSQL, Python (Pandas, Numpy), Data Visualization (Matplotlib, Seaborn)",
+        "Design Tool": "Figma",
+        "Machine Learning tools": "PyTorch, Scikit-learn, SpaCY",
+        "DevOps and Automation": "CI/CD, Jenkins, Docker, Kubernetes",
+        "Cloud services": "Google Cloud Platform (GCP), AWS",
+        "Machine Learning concept": "Supervised Learning (Linear Regression, Regularization, KNN, Decision Tree, Ensemble Learning, etc) and Unsupervised Learning (K-Means clustering, PCA, LDA, Autoencoders, etc)",
+        "Deep Learning concept": "Neural Network, Recurrent Neural Network (RNN), Gated Recurrent Unit (GRU), Long Short-Term Memory (LSTM), General Adversarial Networkd (GAN), etc.",
+        "Natural Language Processing (NLP)": "Fine-tuning and in-context learning Large Language Model (eg. BERT, GPT, and LlaMA)"
+
+    }
+]
