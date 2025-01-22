@@ -38,7 +38,7 @@
 
     <Divider />
 
-    <div class="about-me">
+    <div class="about-me" id="about-me">
         <h1>About me</h1>
         <div>
             <p>I grew up in Nganjuk, East Java, Indonesia, and have been living in Shenzhen, China, for over two years to pursue my undergraduate studies. 🎓</p>
