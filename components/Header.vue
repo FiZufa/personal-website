@@ -5,7 +5,7 @@
             
             <button class="java-btn" :class="{ active: $route.path === '/' }" @click="gotoAnotherPage('/')">Home</button>
 
-            <button class="user-btn" :class="{ active: $route.path === '/portofolio' }" @click="gotoAnotherPage('/portofolio')">Portfolio</button>
+            <button class="user-btn" :class="{ active: $route.path === '/portfolio' }" @click="gotoAnotherPage('/portfolio')">Portfolio</button>
 
             <button class="error-btn" :class="{ active: $route.path === '/cv' }" @click="gotoAnotherPage('/cv')">CV</button>
 
