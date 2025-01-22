@@ -9,7 +9,7 @@
 
             <button class="error-btn" :class="{ active: $route.path === '/cv' }" @click="gotoAnotherPage('/cv')">CV</button>
 
-            <button class="answer-btn" :class="{ active: $route.path === '/' && $route.hash === '#about-me' }" @click="gotoAnotherPage('/#about-me')">About me</button>
+            <button class="answer-btn" :class="{ active: $route.path === '/' && $route.hash === '#about-me' }" @click="gotoAnotherPage('/#about-me')">About me🍃</button>
 
         </div>
 
