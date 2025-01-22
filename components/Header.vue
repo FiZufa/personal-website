@@ -3,13 +3,13 @@
 
         <div class="menus">
             
-            <button class="java-btn" @click="gotoAnotherPage('/')">Home</button>
+            <button class="java-btn" :class="{ active: $route.path === '/' }" @click="gotoAnotherPage('/')">Home</button>
 
-            <button class="user-btn" @click="gotoAnotherPage('/')">Portfolio</button>
+            <button class="user-btn" :class="{ active: $route.path === '/portofolio' }" @click="gotoAnotherPage('/portofolio')">Portfolio</button>
 
-            <button class="error-btn" @click="gotoAnotherPage('/')">CV</button>
+            <button class="error-btn" :class="{ active: $route.path === '/cv' }" @click="gotoAnotherPage('/cv')">CV</button>
 
-            <button class="answer-btn" @click="gotoAnotherPage('/')">About me</button>
+            <button class="answer-btn" :class="{ active: $route.path === '/about' }" @click="gotoAnotherPage('/')">About me</button>
 
         </div>
 
@@ -17,6 +17,13 @@
 
 </template>
 <script>
+export default {
+  methods: {
+    gotoAnotherPage(path) {
+      this.$router.push(path);
+    },
+  },
+};
 
 </script>
 <style>
@@ -58,7 +65,7 @@ html, body {
     align-items: center;
   }
 
-  button {
+  .menus button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -71,7 +78,11 @@ html, body {
     opacity: 60%;
   }
 
-  button:hover {
+  .menus button:hover {
+    opacity: 100%;
+  }
+
+  .menus button.active {
     opacity: 100%;
   }
 
