@@ -11,6 +11,7 @@
                 <img class="linkedin-icon" src="assets/icon_linkedin.png">
                 <img class="github-icon" src="assets/icon_github.png">
                 <img class="medium-icon" src="assets/icon_medium.png">
+                <img class="pinterest-icon" src="assets/icon_pinterest.png"
             </div>
         </div>
         <div class="right">

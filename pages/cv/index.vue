@@ -23,7 +23,7 @@
 
         <div class="section-edu">
             <h1 class="sub-title">Education</h1>
-            <p>Southern University of Science and Technology (SUSTech / 南方科技大学)</p>
+            <p class="pink">Southern University of Science and Technology (SUSTech / 南方科技大学)</p>
             <p><span class="bold">Bachelor</span>, Department of Computer Science and Engineering</p>
             <p>September 2021 - June 2025 (Expected graduation) </p>
             <p>Relevant courseworks: Algorithm Design and Analysis, Artificial Intelligence, C/C++ Programming Design, Computer Networks, Computer System Design, Data Structures and Algorithm, Deep Learning, Discrete Mathematics, Machine Learning, Object-oriented Analysis and Design, Operating Systems, Principle of Database Systems, Probability and Statistics, Software Engineering</p>
@@ -139,5 +139,14 @@ html, body {
     margin-top: 8px;
 }
 
+.pink, .certif .bold {
+    color: #e43b63;
+}
+
+.pink:hover, .certif .bold:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #c32f52;
+}
 
 </style>
