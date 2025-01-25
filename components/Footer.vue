@@ -18,6 +18,13 @@
     color: #ccc;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin: 64px;
+        font-size: 24px;
+    }
+}
+
 
 
 

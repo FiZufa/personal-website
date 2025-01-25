@@ -71,6 +71,7 @@ import Header from '@/components/Header.vue';
 // import { HeroIcon } from '@heroicons/vue';
 import Divider from '@/components/Divider.vue';
 import { Footer } from '#components';
+import VueMq from 'vue-mq';
 
 </script>
 <style>
@@ -88,7 +89,6 @@ html, body {
     margin: 32px 180px;
     padding: 48px 0;
     height: auto;
-    width: 1080px;
     border: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
@@ -156,7 +156,7 @@ html, body {
 }
 .about-me{
     margin: 0 180px;
-    
+    flex-wrap: wrap;
 }
 
 .divider {
@@ -169,10 +169,12 @@ html, body {
 
 /* Mobile and Tablet Styles */
 @media screen and (max-width: 1024px) {
+
     .body {
         margin: 16px 64px;
         flex-direction: column; /* Stacks content vertically on smaller screens */
     }
+
 
     .left {
         width: 100%; /* Stacks the left and right content to 100% width */
@@ -185,29 +187,33 @@ html, body {
     }
 
     .left img {
-        width: 250px; /* Makes image smaller on mobile */
-        height: 250px;
+        width: 300px; /* Makes image smaller on mobile */
+        height: 300px;
     }
 
     .social-media img {
-        width: 48px;
-        height: 48px;
-    }
-
-    .right h1 {
-        font-size: 28px; /* Smaller font size for mobile */
+        width: 56px;
+        height: 56px;
     }
 
     .right-content {
-        padding-right: 10%; 
+        padding-right: 10%;
     }
 
-    .right-content h1 {
-        font-size: 48px;
+    .right-content h1, .about-me h1 {
+        font-size: 64px;
+    }
+
+    .right-content p, .right-content li, .email {
+        font-size: 32px;
     }
 
     .about-me {
         margin: 0 64px;
+    }
+
+    .about-me p {
+        font-size: 32px;
     }
 
     .divider {
@@ -218,35 +224,44 @@ html, body {
     }
 }
 
+
 @media screen and (max-width: 600px) {
     .body {
         margin: 16px; /* Smaller margin for very small screens */
     }
+
 
     .left img {
         width: 250px; /* Even smaller profile image */
         height: 250px;
     }
 
+
     .social-media img {
         width: 30px; /* Smaller icons */
         height: 30px;
     }
 
+
     .right h1 {
         font-size: 24px; /* Even smaller title for small screens */
     }
+
 
     .right-content {
         font-size: 14px; /* Adjust font size for readability on small screens */
     }
 
+
     .about-me {
         margin: 0 16px; /* Reduce margin for small screens */
     }
+
 
     .divider {
         margin: 64px 16px; /* Adjust divider margin for mobile */
     }
 }
+
+
 </style>
