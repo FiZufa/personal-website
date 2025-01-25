@@ -21,7 +21,6 @@
 @media screen and (max-width: 1024px) {
     .footer {
         margin: 0 3%;
-        font-size: 16px;
     }
 }
 

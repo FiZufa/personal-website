@@ -1,31 +1,39 @@
 <template>
-    <header class="header">
+  <header class="header">
+    <div class="menus">
+      <button class="home-btn" :class="{ active: $route.path === '/' }" @click="gotoAnotherPage('/')">Home</button>
 
-        <div class="menus">
-            
-            <button class="java-btn" :class="{ active: $route.path === '/' }" @click="gotoAnotherPage('/')">Home</button>
+      <div class="menus-three" :class="{ 'show-menu': menuVisible }">
+        <button class="porto-btn" :class="{ active: $route.path === '/portfolio' }" @click="gotoAnotherPage('/portfolio')">Portfolio</button>
+        <button class="cv-btn" :class="{ active: $route.path === '/cv' }" @click="gotoAnotherPage('/cv')">CV</button>
+        <button class="about-btn" :class="{ active: $route.path === '/' && $route.hash === '#about-me' }" @click="gotoAnotherPage('/#about-me')">About me🍃</button>
+      </div>
+    </div>
 
-            <button class="user-btn" :class="{ active: $route.path === '/portfolio' }" @click="gotoAnotherPage('/portfolio')">Portfolio</button>
-
-            <button class="error-btn" :class="{ active: $route.path === '/cv' }" @click="gotoAnotherPage('/cv')">CV</button>
-
-            <button class="answer-btn" :class="{ active: $route.path === '/' && $route.hash === '#about-me' }" @click="gotoAnotherPage('/#about-me')">About me🍃</button>
-
-        </div>
-
-    </header>
-
+    <div class="right-header">
+      <img class="burger-btn" src="assets/icon_burger.png" @click="toggleMenu" alt="Menu">
+    </div>
+  </header>
 </template>
+
 <script>
 export default {
+  data() {
+    return {
+      menuVisible: false, // To control the visibility of the menu
+    };
+  },
   methods: {
     gotoAnotherPage(path) {
       this.$router.push(path);
     },
+    toggleMenu() {
+      this.menuVisible = !this.menuVisible; // Toggle menu visibility
+    },
   },
 };
-
 </script>
+
 <style>
 
 html, body {
@@ -51,13 +59,15 @@ html, body {
 
   }
 
-  .menus {
+  .menus, .menus-three {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 
   }
+
+
 
   .menu-container {
     display: flex;
@@ -86,22 +96,51 @@ html, body {
     opacity: 100%;
   }
 
+  .burger-btn {
+    width: 3.5rem;
+    height: auto;
+    display: none;
+    cursor: pointer;
+  }
+
+  .right-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute; 
+    top: 10px;
+    right: 20px;
+  }
+
   @media screen and (max-width: 1024px) {
     .header {
-        padding: 6px 3%; /* Reduced padding */
+        padding: 1% 3%; /* Reduced padding */
     }
 
-    .menus {
-        align-items: center; /* Center items horizontally */
-        padding: 10px 0; /* Optional, to add spacing between buttons */
+    .burger-btn{
+      display: block;
     }
-
+    
     .menus button {
-        font-size: 1.2em; /* Increase font size for readability on mobile */
-        padding: 12px; /* Reduce padding on mobile */
-        width: 100%; /* Make buttons take full width */
-        text-align: center; /* Center the text in the button */
+      color: #318CE7;
+      opacity: 0.7;
     }
+    .menus button.active {
+      opacity: 1.0;
+    }
+
+    .menus-three {
+      display: none;
+    }
+
+
+    .menus-three.show-menu{
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+    }
+
+
 }
 
 </style>
