@@ -198,8 +198,8 @@ html, body {
     
 
     .social-media img {
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .right-content {
@@ -213,7 +213,7 @@ html, body {
     .right-content p, .right-content li, .about-me p {
         font-size: 16px;
     }
-    
+
     .email {
         font-size: 14px;
     }

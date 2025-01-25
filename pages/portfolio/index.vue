@@ -28,4 +28,10 @@ html, body {
     margin: 0 180px;
 }
 
+@media screen and (max-width: 1024px) {
+    .porto-body {
+        margin: 0 3% ;
+    }
+}
+
 </style>

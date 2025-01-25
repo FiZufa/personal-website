@@ -149,4 +149,10 @@ html, body {
     color: #c32f52;
 }
 
+@media screen and (max-width: 1024px) {
+    .cv-body {
+        margin: 0 3%;
+    }
+}
+
 </style>
