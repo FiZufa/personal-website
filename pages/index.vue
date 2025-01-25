@@ -177,10 +177,9 @@ html, body {
 @media screen and (max-width: 1024px) {
 
     .body {
-        margin: 16px 64px;
+        margin: 16px 3%;
         flex-direction: column; /* Stacks content vertically on smaller screens */
     }
-
 
     .left {
         width: 100%; /* Stacks the left and right content to 100% width */
@@ -193,13 +192,14 @@ html, body {
     }
 
     .left img {
-        width: 300px; /* Makes image smaller on mobile */
-        height: 300px;
+        width: 18rem;  /* Makes image 50% of the container's width */
+        height: 18rem; /* Makes height equal to width */
     }
+    
 
     .social-media img {
-        width: 56px;
-        height: 56px;
+        width: 4rem;
+        height: 4rem;
     }
 
     .right-content {
@@ -215,11 +215,11 @@ html, body {
     }
 
     .about-me {
-        margin: 0 64px;
+        margin: 0 5%;
     }
 
     .divider {
-        margin: 64px 64px;
+        margin: 3% 3%;
         align-items: center;
         text-align: center;
         justify-content: center;

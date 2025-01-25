@@ -20,8 +20,8 @@
 
 @media screen and (max-width: 1024px) {
     .footer {
-        margin: 64px;
-        font-size: 24px;
+        margin: 0 3%;
+        font-size: 16px;
     }
 }
 

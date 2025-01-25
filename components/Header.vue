@@ -86,4 +86,22 @@ html, body {
     opacity: 100%;
   }
 
+  @media screen and (max-width: 1024px) {
+    .header {
+        padding: 6px 3%; /* Reduced padding */
+    }
+
+    .menus {
+        align-items: center; /* Center items horizontally */
+        padding: 10px 0; /* Optional, to add spacing between buttons */
+    }
+
+    .menus button {
+        font-size: 1.2em; /* Increase font size for readability on mobile */
+        padding: 12px; /* Reduce padding on mobile */
+        width: 100%; /* Make buttons take full width */
+        text-align: center; /* Center the text in the button */
+    }
+}
+
 </style>
