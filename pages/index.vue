@@ -167,6 +167,12 @@ html, body {
     justify-content: center;
 }
 
+@media screen and (min-width: 1440px) {
+    .body {
+        width: 1080px;
+    }
+}
+
 /* Mobile and Tablet Styles */
 @media screen and (max-width: 1024px) {
 
@@ -200,20 +206,16 @@ html, body {
         padding-right: 10%;
     }
 
-    .right-content h1, .about-me h1 {
-        font-size: 64px;
+    .my-name h1, .about-me h1 {
+        font-size: 48px;
     }
 
-    .right-content p, .right-content li, .email {
-        font-size: 32px;
+    .right-content p, .right-content li, .email, .about-me p {
+        font-size: 18px;
     }
 
     .about-me {
         margin: 0 64px;
-    }
-
-    .about-me p {
-        font-size: 32px;
     }
 
     .divider {
@@ -224,44 +226,6 @@ html, body {
     }
 }
 
-
-@media screen and (max-width: 600px) {
-    .body {
-        margin: 16px; /* Smaller margin for very small screens */
-    }
-
-
-    .left img {
-        width: 250px; /* Even smaller profile image */
-        height: 250px;
-    }
-
-
-    .social-media img {
-        width: 30px; /* Smaller icons */
-        height: 30px;
-    }
-
-
-    .right h1 {
-        font-size: 24px; /* Even smaller title for small screens */
-    }
-
-
-    .right-content {
-        font-size: 14px; /* Adjust font size for readability on small screens */
-    }
-
-
-    .about-me {
-        margin: 0 16px; /* Reduce margin for small screens */
-    }
-
-
-    .divider {
-        margin: 64px 16px; /* Adjust divider margin for mobile */
-    }
-}
 
 
 </style>
