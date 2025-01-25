@@ -167,11 +167,47 @@ html, body {
     justify-content: center;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1599px) {
     .body {
-        width: 1080px;
+        width: 1200px;  /* Increase width for larger screens */
+        margin: 32px auto;  /* Center the body content */
+        padding: 48px 0;
+    }
+
+    .left {
+        width: 25%; /* Adjust width of the left side for more space on large screens */
+    }
+
+    .right {
+        width: 70%;  /* Adjust width of the right side */
+    }
+
+    .right-content {
+        padding-right: 5%;  /* Adjust padding for larger screens */
+    }
+
+    .my-name h1 {
+        font-size: 48px;  /* Increase font size for large screens */
+    }
+
+    .right-content p, .right-content li, .about-me p {
+        font-size: 18px;  /* Increase font size for better readability */
+    }
+
+    .email {
+        font-size: 16px;  /* Increase font size */
+    }
+
+    .social-media img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .divider {
+        margin: 64px 180px;
     }
 }
+
 
 /* Mobile and Tablet Styles */
 @media screen and (max-width: 1024px) {
