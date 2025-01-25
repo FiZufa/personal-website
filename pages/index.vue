@@ -32,7 +32,7 @@
 
                 <p>Hello world! 👋</p>
                 <p>I'm a final-year student majoring in <a class="pink" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer">Computer Science and Engineering at Southern University of Science and Technology (SUSTech / 南方科技大学)</a>, China. </p>
-                <p>Currently, my interests lie at the intersection of technology, data, and design. </p>
+                <p>Currently, my interests lie at the intersection of <b>technology, data,</b> and <b>design</b>.</p>
                 <p>Specifically:</p>
                 <p>
                     <ul>
@@ -87,12 +87,13 @@ html, body {
 .body {
     margin: 32px 180px;
     padding: 48px 0;
-    height: 500px;
+    height: auto;
     width: 1080px;
     border: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
+    flex-wrap: wrap;
 }
 
 .right h1 {
@@ -155,10 +156,97 @@ html, body {
 }
 .about-me{
     margin: 0 180px;
+    
 }
 
 .divider {
     border-top: 1px #ccc solid;
     margin: 64px 180px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Mobile and Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .body {
+        margin: 16px 64px;
+        flex-direction: column; /* Stacks content vertically on smaller screens */
+    }
+
+    .left {
+        width: 100%; /* Stacks the left and right content to 100% width */
+        text-align: center; /* Centers text for mobile screens */
+        margin: 10px 0;
+    }
+    .right {
+        width: 100%;
+        margin: 5% 5%;
+    }
+
+    .left img {
+        width: 250px; /* Makes image smaller on mobile */
+        height: 250px;
+    }
+
+    .social-media img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .right h1 {
+        font-size: 28px; /* Smaller font size for mobile */
+    }
+
+    .right-content {
+        padding-right: 10%; 
+    }
+
+    .right-content h1 {
+        font-size: 48px;
+    }
+
+    .about-me {
+        margin: 0 64px;
+    }
+
+    .divider {
+        margin: 64px 64px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .body {
+        margin: 16px; /* Smaller margin for very small screens */
+    }
+
+    .left img {
+        width: 250px; /* Even smaller profile image */
+        height: 250px;
+    }
+
+    .social-media img {
+        width: 30px; /* Smaller icons */
+        height: 30px;
+    }
+
+    .right h1 {
+        font-size: 24px; /* Even smaller title for small screens */
+    }
+
+    .right-content {
+        font-size: 14px; /* Adjust font size for readability on small screens */
+    }
+
+    .about-me {
+        margin: 0 16px; /* Reduce margin for small screens */
+    }
+
+    .divider {
+        margin: 64px 16px; /* Adjust divider margin for mobile */
+    }
 }
 </style>
