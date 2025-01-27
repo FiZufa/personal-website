@@ -48,7 +48,8 @@
         <div class="section">
             <h1 class="sub-title">Training</h1>
             <div v-for="(training, index) in data.trainings" :key="index" class="training">
-                <p class="bold">{{ training.name }}</p>
+                <!-- <p class="bold">{{ training.name }}</p> -->
+                <a style="text-decoration: none;" :href="training.link" target="_blank" rel="noopener noreferrer"><p class="bold">{{ training.name }}</p></a>
                 <p>{{ training.time }}</p>
                 <p>{{ training.desc }}</p>
             </div>

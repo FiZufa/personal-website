@@ -3,7 +3,7 @@
     "Web Development": "HTML, CSS, JavaScript, Vue.js",
     "Data Analysis": "PosgreSQL, Python (Pandas, Numpy), Data Visualization (Matplotlib, Seaborn)",
     "Design Tool": "Figma",
-    "Machine Learning tools": "PyTorch, Scikit-learn, SpaCY",
+    "Machine Learning tools": "PyTorch, Scikit-learn, Keras, NLTK, Streamlit (deployment)",
     "DevOps and Automation": "CI/CD, Jenkins, Docker, Kubernetes",
     "Cloud services": "Google Cloud Platform (GCP), AWS",
     "Machine Learning concept": "Supervised Learning (Linear Regression, Regularization, KNN, Decision Tree, Ensemble Learning, etc) and Unsupervised Learning (K-Means clustering, PCA, LDA, Autoencoders, etc)",
