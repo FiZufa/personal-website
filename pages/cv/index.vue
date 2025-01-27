@@ -144,7 +144,7 @@ html, body {
     color: #e43b63;
 }
 
-.pink:hover, .certif .bold:hover, .certif .bold:hover {
+.pink:hover, .certif .bold:hover, .training .bold:hover {
     cursor: pointer;
     text-decoration: underline;
     color: #c32f52;
