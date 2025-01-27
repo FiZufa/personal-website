@@ -140,11 +140,11 @@ html, body {
     margin-top: 8px;
 }
 
-.pink, .certif .bold {
+.pink, .certif .bold, .training .bold {
     color: #e43b63;
 }
 
-.pink:hover, .certif .bold:hover {
+.pink:hover, .certif .bold:hover, .certif .bold:hover {
     cursor: pointer;
     text-decoration: underline;
     color: #c32f52;
