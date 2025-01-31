@@ -144,6 +144,7 @@ html, body {
 }
 .pink {
     color: #e43b63;
+    text-decoration: none;
 }
 .pink:hover{
     cursor: pointer;
