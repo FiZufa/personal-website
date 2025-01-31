@@ -31,7 +31,7 @@
                 </div>
 
                 <p>Hi there! 👋</p>
-                <p>I'm a final-year student majoring in <a class="pink" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer">Computer Science and Engineering at Southern University of Science and Technology (SUSTech / 南方科技大学)</a>, China. </p>
+                <p>I'm a final-year student majoring in Computer Science and Engineering at <a class="pink" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer">Southern University of Science and Technology (SUSTech / 南方科技大学)</a>, China. </p>
                 <p>Currently, my interests lie at the intersection of <b>technology, data,</b> and <b>design</b>.</p>
                 <p>Specifically:</p>
                 <p>
