@@ -2,26 +2,31 @@
     {
         "name": "Generative AI with Large Language Models",
         "when": "Coursera | Completed: January 2025",
-        "link": "https://coursera.org/share/0b0cce5e8741429a231013e6d46f48b8"
+        "link": "https://coursera.org/share/0b0cce5e8741429a231013e6d46f48b8",
+        "skills": ["Transformers", "In-context learning", "Large language models", "Parameter-efficient fine tuning (PEFT)", "Reinforcement learning from human feedbacks (RLHF)", "LLM optimization techniques", "Retrieval augmented generation (RAG)", "Chain-of-Thought prompting", "Program-aided language (PAL)", "LLM-powered application", "Responsible AI"]
     },
     {
-        "name": "Figma UI/UX Design",
+        "name": "Figma UI/UX Design Advanced",
         "when": "Udemy | Completed: July 2024",
-        "link": "https://www.udemy.com/certificate/UC-f32a1b9a-6e4e-47e2-8bb8-dba9d102ad62/"
+        "link": "https://www.udemy.com/certificate/UC-f32a1b9a-6e4e-47e2-8bb8-dba9d102ad62/",
+        "skills": ["Design systems", "Auto layout", "Responsive design", "Grids", "Animations", "Prototyping"]
     },
     {
         "name": "Design Thinking",
         "when": "Coursera | Completed: April 2024",
-        "link": "https://coursera.org/share/66c39c51b0de0c3856e26f65ba978199"
+        "link": "https://coursera.org/share/66c39c51b0de0c3856e26f65ba978199",
+        "skills": ["Design thinking process", "Ethnographic research", "Journey map", "Personas", "Value chain analysis", "Cognitive biases", "Mindset shift"]
     },
     {
         "name": "Google UX Design",
         "when": "Coursera | Completed: February 2024",
-        "link": "https://coursera.org/share/1958a9181a74eacff01a2a5003ef7d9c"
+        "link": "https://coursera.org/share/1958a9181a74eacff01a2a5003ef7d9c",
+        "skills": ["User-centered design", "Design sprint process", "UX research", "Empathizing and defining pain points", "User personas", "User stories", "User journey maps", "Problems and hypothesis statements", "Conducting competitive audit", "Usability studies", "Low- and high- fidelity design"]
     },
     {
         "name": "Machine Learning",
         "when": "Coursera | Completed: December 2023",
-        "link": "https://coursera.org/share/29709d30aa31d3a445c50415bfc4aadf"
+        "link": "https://coursera.org/share/29709d30aa31d3a445c50415bfc4aadf",
+        "skills": ["Linear Regression", "Neural Networks", "Decision Trees", "Ensemble learning", "Clustering", "Anomaly detection", "Reinforcement Learning"]
     }
 ]
