@@ -2,7 +2,7 @@
     {
       "name": "Stackoverflow Data Analysis",
       "tags": ["Software Engineering", "Java", "Data Analysis"],
-      "description": "A web application that stores, analyzes, and visualizes Stack Overflow Q&A data related to Java programming, with the goal of understanding common questions, answers, and resolution activities. The analysis focuses on the most common Java topics, user engagement, exceptions and errors, and answer quality. Insights are visualized through a web application built with Spring Boot as the REST API service and Vue.js as the front-end framework. Collaborated with @SreynyTha as the Spring Boot Developer.",
+      "description": "A web application that stores, analyzes, and visualizes Stack Overflow Q&A data related to Java programming, with the goal of understanding common questions, answers, and resolution activities. The analysis focuses on the most common Java topics, user engagement, exceptions and errors, and answer quality. Insights are visualized through a web application built with Spring Boot as the REST API service and Vue.js as the front-end framework. This is a group project collaborated with @SreynyTha",
       "course": "Computer System Design and Application (CS209) Fall 2024",
       "links": {
         "Github": "https://github.com/FiZufa/CS209-Final-Project-2024"
@@ -11,7 +11,7 @@
     {
       "name": "Ancient to Modern Chinese Machine Translation",
       "tags": ["Machine Learning", "NLP"],
-      "description": "The machine translation model uses an encoder-decoder architecture, including the Transformer, to translate ancient Chinese into modern Chinese. The experiment involves a Transformer model with the encoder implemented using BERT and the decoder using GPT for the sequence-to-sequence task, specifically machine translation. This project was led by @LamNguyen and supervised by @Prof. Yang Xu.",
+      "description": "The machine translation model uses Transformers architecture, particularly the Encoder-Decoder, to translate ancient Chinese into modern Chinese. The experiment involves a Transformer model with the encoder implemented using BERT and the decoder using GPT for the sequence-to-sequence task, specifically machine translation. This is a group project led by @LamNguyen and supervised by @Prof. Yang Xu.",
       "course": "Group Project III Fall 2024",
       "links": {
         "Slides": "https://drive.google.com/file/d/1JNjTduH1_wAFeAZdeoMTwEwsgnP5Tont/view?usp=sharing"
