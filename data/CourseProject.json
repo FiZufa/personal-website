@@ -2,7 +2,7 @@
     {
       "name": "Stackoverflow Data Analysis",
       "tags": ["Software Engineering", "Java", "Data Analysis"],
-      "description": "A web application that stores, analyzes, and visualizes Stack Overflow Q&A data related to Java programming, with the goal of understanding common questions, answers, and resolution activities. The analysis focuses on the most common Java topics, user engagement, exceptions and errors, and answer quality. Insights are visualized through a web application built with Spring Boot as the REST API service and Vue.js as the front-end framework. This is a group project collaborated with @SreynyTha",
+      "description": "A web application that stores, analyzes, and visualizes Stack Overflow Q&A data related to Java programming, with the goal of understanding common questions, answers, and resolution activities. The analysis focuses on the most common Java topics, user engagement, exceptions and errors, and answer quality. Insights are visualized through a web application built with Spring Boot as the REST API service and Vue.js as the front-end framework. This is a group project collaborated with @SreynyTha.",
       "skills": ["Java programming language", "Data analysis", "Data collection", "Data visualization", "Web development", "Spring Boot", "REST API", "Vue.js"],
       "course": "Computer System Design and Application (CS209) Fall 2024",
       "links": {

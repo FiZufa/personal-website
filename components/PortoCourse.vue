@@ -13,6 +13,11 @@
               </span>
             </div>
             <p>{{ project.description }}</p>
+            <p>Skills: 
+              <span v-for="(skill, skillIndex) in project.skills" :key="skillIndex" class="skill">
+                {{ skill }}
+              </span>
+            </p>
             <p style="font-style: italic;">{{ project.course }}</p>
             <div class="buttons">
               <a
@@ -42,8 +47,13 @@
           </span>
         </div>
         <p>{{ project.description }}</p>
+        <p>Skills: 
+          <span v-for="(skill, skillIndex) in project.skills" :key="skillIndex" class="skill">
+            {{ skill }}
+          </span>
+        </p>
         <p style="font-style: italic;">{{ project.course }}</p>
-        <p style="font-style: italic;">{{ project.period}}</p>
+        <p>{{ project.period}}</p>
         <div class="buttons">
           <a
             v-for="(link, linkName) in project.links"
@@ -121,6 +131,14 @@ h2 {
   padding: 2px 8px;
   margin: -2px 2px;
   
+}
+
+.skill {
+  background-color: #ccc;
+  border-radius: 2px;
+  padding: 1px 8px;
+  margin: 2px 2px;
+  font-size: 12px;
 }
 
 .button-link {

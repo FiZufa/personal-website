@@ -74,6 +74,11 @@
             <div v-for="(certif, index) in data.certifications" :key="index" class="certif">
                 <a style="text-decoration: none;" :href="certif.link" target="_blank" rel="noopener noreferrer"><p class="bold">{{ certif.name }}</p></a>
                 <p>{{ certif.when }}</p>
+                <p>Skills: 
+                    <span v-for="(skill, skillIndex) in certif.skills" :key="skillIndex">
+                      {{ skill }},
+                    </span>
+                  </p>
             </div>
         </div>
         
@@ -149,6 +154,14 @@ html, body {
     text-decoration: underline;
     color: #c32f52;
 }
+
+.skill {
+    background-color: #ccc;
+    border-radius: 2px;
+    padding: 1px 8px;
+    margin: 2px 2px;
+    font-size: 12px;
+  }
 
 @media screen and (max-width: 1024px) {
     .cv-body {
