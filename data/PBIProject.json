@@ -2,7 +2,8 @@
     {
         "name": "Airbnb Room Price Prediction",
         "tags": ["Data Science", "Data Analysis"],
-        "description": "Analyzed and predicted Airbnb room prices based on various features for hosts. The process involved problem reframing based on business understanding, exploratory data analysis, data preprocessing, machine learning modeling, and evaluation. We also deployed the model and developed a web application to visualize the data and provide hosts with the system.",
+        "description": "Analyzed and predicted Airbnb room prices based on various features for hosts. We also deployed the model and developed a web application to visualize the data and provide hosts with the system.",
+        "skills": ["Business understanding", "Exploratory data analysis", "Data preprocessing", "Feature selection", "Machine learning modeling", "Web development", "Fast API", "Streamlit"],
         "course": "Rakamin Academy",
         "period": "October 2024 - February 2025",
         "links": {
@@ -14,6 +15,7 @@
         "name": "Loan Repayment Success Prediction",
         "tags": ["Data Science", "Data Analysis"],
         "description": "Predicted loan repayment success, ensuring creditworthy customers are not turned down while maintaining a structure that encourages successful repayments. The process involved exploratory data analysis to gain actionable insights for stakeholders, data preprocessing, feature selection for machine learning, and model training and hyperparameter tuning for predicting loan repayment success.",
+        "skills": ["Business understanding", "Data preprocessing", "Exploratory data analysis", "Data visualization", "Machine learning modeling"],
         "course": "Rakamin Academy x Home Credit Indonesia",
         "period": "January 2025",
         "links": {
@@ -25,6 +27,7 @@
         "name": "Montesse Steak House Website UI Design",
         "tags": ["UI/UX Design"],
         "description": "Designed a responsive website for Montesse Steak House. Collaborated with a mentor to create wireframes and high-fidelity prototypes to visualize and refine the design, and conducted usability testing to address user pain points.",
+        "skills": ["Figma", "Low-fidelity prototype", "High-fidelity prototype", "Usability testing", "Design Systems"],
         "course": "Gamelab Indonesia",
         "period": "August 2024",
         "links": {
@@ -36,6 +39,7 @@
         "name": "Dicoding Website UI Enhancement",
         "tags": ["UI/UX Design"],
         "description": "Enhanced the user interface of the Dicoding website to improve usability, accessibility, and overall user experience. Collaborated with peers and mentors to create wireframes and high-fidelity prototypes to visualize and refine the design, and conducted usability testing to address user pain points. This project was collaborated with @Fadhila.",
+        "skills": ["Figma", "Low-fidelity prototype", "High-fidelity prototype", "Usability testing", "Design Systems"],
         "course": "SISTECH UI/UX Design RISTEK University of Indonesia",
         "period": "July 2024",
         "links": {
