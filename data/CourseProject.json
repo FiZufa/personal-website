@@ -3,7 +3,7 @@
       "name": "Stackoverflow Data Analysis",
       "tags": ["Software Engineering", "Java", "Data Analysis"],
       "description": "A web application that stores, analyzes, and visualizes Stack Overflow Q&A data related to Java programming, with the goal of understanding common questions, answers, and resolution activities. The analysis focuses on the most common Java topics, user engagement, exceptions and errors, and answer quality. Insights are visualized through a web application built with Spring Boot as the REST API service and Vue.js as the front-end framework. This is a group project collaborated with @SreynyTha.",
-      "skills": ["Java programming language", "Data analysis", "Data collection", "Data visualization", "Web development", "Spring Boot", "REST API", "Vue.js"],
+      "skills": ["Java programming language", "Object-oriented programming", "Data analysis", "Data collection", "Data visualization", "Web development", "Spring Boot", "REST API", "Vue.js"],
       "course": "Computer System Design and Application (CS209) Fall 2024",
       "links": {
         "Github": "https://github.com/FiZufa/CS209-Final-Project-2024"
@@ -13,7 +13,7 @@
       "name": "Ancient to Modern Chinese Machine Translation",
       "tags": ["Machine Learning", "NLP"],
       "description": "The machine translation model uses Transformers architecture, particularly the Encoder-Decoder, to translate ancient Chinese into modern Chinese. The experiment involves a Transformer model with the encoder implemented using BERT and the decoder using GPT for the sequence-to-sequence task, specifically machine translation. This is a group project led by @LamNguyen and supervised by @Prof. Yang Xu.",
-      "skills": ["Text preprocessing", "Natural Language Processing", "Transformers architecture", "Large Language Models", "Fine-tuning", "GPT", "BERT"],
+      "skills": ["Text preprocessing", "Natural Language Processing", "Transformers architecture", "Large Language Models", "Fine-tuning", "GPT", "BERT", "PyTorch", "Hugging Face"],
       "course": "Group Project III Fall 2024",
       "links": {
         "Slides": "https://drive.google.com/file/d/1JNjTduH1_wAFeAZdeoMTwEwsgnP5Tont/view?usp=sharing"
@@ -23,7 +23,7 @@
         "name": "Java Linking Game",
         "tags": ["Software Engineering", "Java"],
         "description": "A Java-based multiplayer linking game that leverages JavaFX for the user interface and incorporates server-client communication to support multiple players. The implementation involve the concept of socket programming, multithreading, and JavaFX for the UI in Java as object-oriented programming language. ",
-        "skills": ["Java programming language", "JavaFX", "Socket programming", "Multithreading"],
+        "skills": ["Java programming language", "Object-oriented programming", "JavaFX", "Socket programming", "Multithreading"],
         "course": "Computer System Design and Application (CS209) Fall 2024",
         "links": {
             "Github": "https://github.com/FiZufa/Linking-Game-Java"
@@ -33,7 +33,7 @@
         "name": "Analysis of Olympic Historical Datasets",
         "tags": ["Java", "Data Analysis"],
         "description": "Preprocessed and analyzed Olympic historical datasets using Java as an object-oriented programming language, leveraging its features such as Collections, Lambda, and Streams. The analysis includes the top 10 highest-performing female athletes in individual sports, BMI by sport, the top 10 least-represented summer sports, the top 10 countries by medals in the Winter Olympics since 2000, and the top 10 countries with the youngest athletes in the 2020 Summer Olympics.",
-        "skills": ["Java programming language", "Data analysis", "Data preprocessing", "Collections", "Lambda", "Streams"],
+        "skills": ["Java programming language", "Object-oriented programming", "Data analysis", "Data preprocessing", "Collections", "Lambda", "Streams"],
         "course":"Computer System Design and Application (CS209) Fall 2024",
         "links": {
             "Github": "https://github.com/FiZufa/java2-assignment-1"

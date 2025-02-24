@@ -1,7 +1,7 @@
 {
     "Programming Languages": "Python, Java (Object-oriented Programming)",
     "Web Development": "HTML, CSS, JavaScript, Vue.js, REST API (FastAPI, Spring Boot)",
-    "Data Analysis": "PosgreSQL, Python (Pandas, Numpy), Data Visualization (Matplotlib, Seaborn)",
+    "Data Analysis": "PostgreSQL, Python (Pandas, Numpy), Data Visualization (Matplotlib, Seaborn)",
     "Design Tool": "Figma",
     "Machine Learning tools": "PyTorch, Scikit-learn, Keras, NLTK, SpaCY, Streamlit (deployment)",
     "DevOps and Automation": "CI/CD, Jenkins, Docker, Kubernetes",

@@ -41,7 +41,7 @@
                         <li>building deliverable software systems and exploring software engineering concepts.</li>
                     </ul>
                 </p>
-                <p>I am expected to graduate with my bachelor’s degree in June 2025, and <b>I’m actively seeking internship or full-time opportunities as Data Analyst, Data Scientist, or AI/Software Engineer!</b> 🚀</p>
+                <p>I am expected to graduate with my bachelor’s degree in June 2025, and <b>I’m actively seeking internship or full-time opportunities in AI, data, or software!</b> 🚀</p>
             </div>
 
         </div>
