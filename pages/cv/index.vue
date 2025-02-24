@@ -10,7 +10,7 @@
         <Line />
 
         <div class="section">
-            <h1 class="sub-title">Skills and Tools</h1>
+            <h1 class="sub-title">Skills</h1>
             <ul>
                 <li v-for="(value, key) in data.dataSkills" :key="key">
                   <span class="bold">{{ key }}</span>: {{ value }}
@@ -26,7 +26,7 @@
             <a style="text-decoration: none;" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer"><p class="pink">Southern University of Science and Technology (SUSTech / 南方科技大学)</p></a>
             <p><span class="bold">Bachelor</span>, Department of Computer Science and Engineering</p>
             <p>September 2021 - June 2025 (Expected graduation) </p>
-            <p>Relevant courseworks: Data Structures and Algorithm, Algorithm Design and Analysis, Artificial Intelligence, C/C++ Programming Design, Computer Networks, Operating Systems, Object-oriented Analysis and Design, Computer System Design, Discrete Mathematics, Probability and Statistics, Principle of Database Systems, Software Engineering, Machine Learning, Deep Learning</p>
+            <p>Relevant courseworks: Data Structures and Algorithm, Algorithm Design and Analysis, Introduction to Mathematical Logic, Artificial Intelligence, C/C++ Programming Design, Computer Networks, Operating Systems, Object-oriented Analysis and Design, Computer System Design, Discrete Mathematics, Probability and Statistics, Principle of Database Systems, Software Engineering, Machine Learning, Deep Learning, Natural Language Processing</p>
             
         </div>
 
@@ -49,9 +49,10 @@
             <h1 class="sub-title">Training</h1>
             <div v-for="(training, index) in data.trainings" :key="index" class="training">
                 <!-- <p class="bold">{{ training.name }}</p> -->
-                <a style="text-decoration: none;" :href="training.link" target="_blank" rel="noopener noreferrer"><p class="bold">{{ training.name }}</p></a>
+                <p class="title-name">{{ training.name }}</p>
                 <p>{{ training.time }}</p>
                 <p>{{ training.desc }}</p>
+                <div class="cred-btn"><a class="cred-link" :href="training.link" target="_blank" rel="noopener noreferrer">View credential</a><img src="/assets/view-btn.png" style="height: 12px;"></div>
             </div>
         </div>
 
@@ -72,13 +73,14 @@
         <div class="section">
             <h1 class="sub-title">Certifications</h1>
             <div v-for="(certif, index) in data.certifications" :key="index" class="certif">
-                <a style="text-decoration: none;" :href="certif.link" target="_blank" rel="noopener noreferrer"><p class="bold">{{ certif.name }}</p></a>
+                <p class="title-name">{{ certif.name }}</p>
                 <p>{{ certif.when }}</p>
                 <p>Skills: 
                     <span v-for="(skill, skillIndex) in certif.skills" :key="skillIndex">
                       {{ skill }},
                     </span>
-                  </p>
+                </p>
+                <div class="cred-btn"><a class="cred-link" :href="certif.link" target="_blank" rel="noopener noreferrer">View credential</a><img src="/assets/view-btn.png" style="height: 12px;"></div>
             </div>
         </div>
         
@@ -136,13 +138,13 @@ html, body {
     font-weight: 650;
 }
 
-
 .award p, .training p, .activity p, .certif p, .section-edu p {
     margin: 4px 0; /* Adjust the value as needed */
 }
 
 .award, .training, .activity, .certif {
-    margin-top: 8px;
+    margin-top: 4px;
+    margin-bottom: 16px;
 }
 
 .pink, .certif .bold, .training .bold {
@@ -155,13 +157,35 @@ html, body {
     color: #c32f52;
 }
 
+.cred-btn {
+    border: #c32f52 1px solid;
+    display: inline;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+
+.cred-btn:hover {
+    color: #e43b63;
+    box-shadow: #e43b63;
+}
+
+.cred-link {
+    color: #c32f52;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .skill {
     background-color: #ccc;
     border-radius: 2px;
     padding: 1px 8px;
     margin: 2px 2px;
     font-size: 12px;
-  }
+}
+
+.title-name {
+    font-weight: 650;
+}
 
 @media screen and (max-width: 1024px) {
     .cv-body {
