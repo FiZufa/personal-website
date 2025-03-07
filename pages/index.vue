@@ -18,9 +18,9 @@
                 <a href="https://medium.com/@fi.zufa0612" target="_blank" rel="noopener noreferrer">
                     <img class="medium-icon" src="assets/icon_medium.png" alt="medium icon">
                 </a>               
-                <a href="https://id.pinterest.com/" target="_blank" rel="noopener noreferrer">
+                <!-- <a href="https://id.pinterest.com/" target="_blank" rel="noopener noreferrer">
                     <img class="pinterest-icon" src="assets/icon_pinterest.png" alt="pinterest icon">
-                </a>      
+                </a>       -->
             </div>
         </div>
         <div class="right">
@@ -34,13 +34,11 @@
                 <p>I'm a final-year student majoring in Computer Science and Engineering at <a class="pink" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer">Southern University of Science and Technology (SUSTech / 南方科技大学)</a>, China. </p>
                 <p>Currently, my interests lie at the intersection of <b>technology, data,</b> and <b>design</b>.</p>
                 <p>Specifically:</p>
-                <p>
-                    <ul>
-                        <li>turning data into actionable insights and building machine learning models</li>
-                        <li>solving problems through user-centered design to create intuitive experiences</li>
-                        <li>building deliverable software systems and exploring software engineering concepts.</li>
-                    </ul>
-                </p>
+                <ul>
+                    <li>turning data into actionable insights and building machine learning models</li>
+                    <li>solving problems through user-centered design to create intuitive experiences</li>
+                    <li>building deliverable software systems and exploring software engineering concepts.</li>
+                </ul>
                 <p>I am expected to graduate with my bachelor’s degree in June 2025, and <b>I’m actively seeking internship or full-time opportunities in AI, data, or software!</b> 🚀</p>
             </div>
 
@@ -54,9 +52,8 @@
         <h1>About me 🍃</h1>
         <div>
             <p>I grew up in Nganjuk, East Java, Indonesia, and have been living in Shenzhen, China, for over two years to pursue my undergraduate studies🎓.</p>
-            <p>Apart from my study, I enjoy learning new things, especially in areas such as psychology 👤, neurobiology 🧠, children development 👨‍👩‍👧‍👦, health 💪, and nutrition 🍒.</p>
-            <p>My hobbies are reading, cooking, running, biking, flexibility training (a.k.a. yoga), picnic, and listening to musics. I like reading novels and books related to psychology and neurobiology 📖.  I am not a competitive runner, but I enjoy 2k meters running every morning while listening to musics 🏃‍♀️🎶🌞. I like to cook my home dishes, especially Indonesian food! Let me know if you have an interesting recipe—I’d love to learn it! 🍳😋</p>
-            <p>I speak Indonesian (Bahasa) as my native language and use English on a daily basis. Furthermore, I also learn Chinese as my third language!😊</p>
+            <p>My hobbies are reading, cooking, running, biking, flexibility training (a.k.a. yoga), picnic, and listening to musics. I like reading novels and books about anything, but my favorite ones are related to psychology 👤, cognitive science 🧠, and child development 👨‍👩‍👧‍👦.  I am not a competitive runner, but I enjoy 2k meters running every morning while listening to musics 🏃‍♀️🎶🌞. I like to cook my home dishes, especially Indonesian food! Let me know if you have an interesting recipe—I’d love to learn it! 🍳😋</p>
+            <p>I speak Indonesian (Bahasa) as my native language and use English on a daily basis. I also learn Chinese as my third language!😊</p>
             <p>Feel free to explore my social media or connect with me! ✨</p>
         </div>
 

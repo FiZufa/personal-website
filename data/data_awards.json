@@ -3,12 +3,12 @@
         "name": "Presidential Scholarship",
         "issuer": "Southern University of Science and Technology (SUSTech)",
         "time": "2021 - Present",
-        "desc": "Received a prestigious full scholarship for undergraduate studies, based on academic performance, reviewed every semester."
+        "desc": ["Received a prestigious full scholarship for undergraduate study.", "The scholarship is reviewed every semester based on academic performance."]
     },
     {
-        "name": "2nd Runner-up, Essay Competition",
-        "issuer": "KOPMA, Faculty of Industrial Technology, Sepuluh November Institute of Technology",
+        "name": "1st Runner-up, Essay Competition",
+        "issuer": "KOPMA, Faculty of Industrial Technology, Sepuluh Nopember Institute of Technology",
         "time": "September 2023",
-        "desc": "Achieved 2nd place in an essay competition with theme 'Break the Limits and Become A Successful Youngpreneur', focused on entrepreneurship and innovation among young professionals."
+        "desc": ["Achieved 2nd place in an essay competition with theme 'Break the Limits and Become A Successful Youngpreneur'", "The essay was focused on entrepreneurship and innovation among young professionals.", "Proposed a solution to enhance literacy in Indonesia by integrating it with social culture."]
     }
 ]

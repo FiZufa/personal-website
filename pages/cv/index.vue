@@ -4,7 +4,7 @@
     <div class="cv-body">
         <div class="section">
             <h1 class="sub-title">Bio</h1>
-            <p>Final-year Computer Science and Engineering student at Southern University of Science and Technology (SUSTech), China. Passionate about building actionable insights and machine learning model from data, solving problems through user-centered design, and creating deliverable software systems. Actively seeking internship or full-time opportunities for 2025 to contribute to innovative and impactful projects.</p>
+            <p>A Final-year Computer Science and Engineering student at Southern University of Science and Technology (SUSTech), China. Passionate about building actionable insights and machine learning model from data, solving problems through user-centered design, and creating deliverable software systems. Actively seeking internship or full-time opportunities in AI, data, software to contribute to innovative and impactful projects.</p>
         </div>
 
         <Line />
@@ -33,12 +33,29 @@
         <Line />
 
         <div class="section">
+            <h1 class="sub-title">Experience</h1>
+            <div v-for="(training, index) in data.experience" :key="index" class="experience">
+                <!-- <p class="bold">{{ training.name }}</p> -->
+                <p class="title-name">{{ training.name }}</p>
+                <p>{{ training.time }}</p>
+                <ul>
+                    <li v-for="(desc, descIndex) in training.desc" :key="descIndex"> {{ desc }}</li>
+                </ul>
+                <div class="cred-btn"><a class="cred-link" :href="training.link" target="_blank" rel="noopener noreferrer">View credential</a><img src="/assets/view-btn.png" style="height: 12px;"></div>
+            </div>
+        </div>
+
+        <Line />
+
+        <div class="section">
             <h1 class="sub-title">Awards</h1>
             <div v-for="(award, index) in data.awards" :key="index" class="award">
                 <p class="bold">{{ award.name }}</p>
                 <p style="font-style: italic;">{{ award.issuer }}</p>
                 <p>{{ award.time }}</p>
-                <p>{{ award.desc }}</p>
+                <ul>
+                    <li v-for="(desc, descIndex) in award.desc" :key="descIndex">{{ desc }}</li>
+                </ul>
             </div>
 
         </div>
@@ -51,7 +68,9 @@
                 <!-- <p class="bold">{{ training.name }}</p> -->
                 <p class="title-name">{{ training.name }}</p>
                 <p>{{ training.time }}</p>
-                <p>{{ training.desc }}</p>
+                <ul>
+                    <li v-for="(desc, descIndex) in training.desc" :key="descIndex">{{ desc }}</li>
+                </ul>
                 <div class="cred-btn"><a class="cred-link" :href="training.link" target="_blank" rel="noopener noreferrer">View credential</a><img src="/assets/view-btn.png" style="height: 12px;"></div>
             </div>
         </div>
@@ -97,6 +116,7 @@ import awards from '@/data/data_awards.json';
 import trainings from '@/data/data_training.json';
 import activities from '@/data/data_activities.json';
 import certifications from '@/data/data_certification.json';
+import experience from '@/data/experience.json';
 
 import Line from '~/components/Line.vue';
 import { Footer } from '#components';
@@ -106,6 +126,7 @@ export default {
     return {
       data: {
         dataSkills,
+        experience,
         awards,
         trainings,
         activities,
@@ -138,11 +159,11 @@ html, body {
     font-weight: 650;
 }
 
-.award p, .training p, .activity p, .certif p, .section-edu p {
+.experience p, .award p, .training p, .activity p, .certif p, .section-edu p {
     margin: 4px 0; /* Adjust the value as needed */
 }
 
-.award, .training, .activity, .certif {
+.experience, .award, .training, .activity, .certif {
     margin-top: 4px;
     margin-bottom: 16px;
 }
@@ -158,15 +179,13 @@ html, body {
 }
 
 .cred-btn {
-    border: #c32f52 1px solid;
     display: inline;
     padding: 4px 8px;
-    border-radius: 20px;
 }
 
 .cred-btn:hover {
-    color: #e43b63;
-    box-shadow: #e43b63;
+    color: #c32f52;
+    text-decoration: underline;
 }
 
 .cred-link {
