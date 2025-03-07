@@ -4,7 +4,7 @@
     <div class="cv-body">
         <div class="section">
             <h1 class="sub-title">Bio</h1>
-            <p>A Final-year Computer Science and Engineering student at Southern University of Science and Technology (SUSTech), China. Passionate about building actionable insights and machine learning model from data, solving problems through user-centered design, and creating deliverable software systems. Actively seeking internship or full-time opportunities in AI, data, software to contribute to innovative and impactful projects.</p>
+            <p>A Final-year Computer Science and Engineering student at Southern University of Science and Technology (SUSTech), China. Passionate about building actionable insights and machine learning model from data, solving problems through user-centered design, and creating deliverable software systems. Actively seeking internship or full-time opportunities in AI, data, or software to contribute to innovative and impactful projects.</p>
         </div>
 
         <Line />
