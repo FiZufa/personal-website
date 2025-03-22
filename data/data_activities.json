@@ -1,16 +1,23 @@
 [
     {
         "role": "Participant",
+        "name": "Basic Leadership Training (LDK)",
+        "issuer": "Indonesian Students Association of Southern China Region",
+        "where": "Wuhan, China | March 2025",
+        "desc": ["A program focused on empowering Gen Z leaders to thrive in a globalized world through experiential learning and interactive sessions", "Engaged in leadership development activities, including workshops, networking sessions, and discussions with inspiring speakers, to enhance leadership skills and foster collaboration."]
+    },
+    {
+        "role": "Participant",
         "name": "Shenzhen Innovation and Experience Camp",
         "issuer": "Overseas Chinese Affairs Office of the United Front Work Department of the CPC Municipal",
         "where": "Shenzhen, China | July 2024",
-        "desc": "Engaged in a hands-on summer camp focusing on innovation, entrepreneurship, and cultural exchange. Collaborated with peers to develop creative solutions to real-world problems and participated in workshops led by industry experts, enhancing teamwork and project management skills."
+        "desc": ["Engaged in a hands-on summer camp focusing on innovation, entrepreneurship, and cultural exchange.", "Collaborated with peers to develop creative solutions to real-world problems and participated in workshops led by industry experts, enhancing teamwork and project management skills."]
     },
     {
         "role": "Volunteer",
         "name": "Global Language Day",
         "issuer": "Center of Language and Education, SUSTech",
         "where": "Shenzhen, China | February 2024",
-        "desc": "Designed banner for Indonesian booth and actively communicated with local visitors who visited the booth."
+        "desc": ["Designed banner for Indonesian booth and actively communicated with local visitors who visited the booth."]
     }
 ]
