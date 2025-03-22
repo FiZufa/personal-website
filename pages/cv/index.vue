@@ -83,7 +83,9 @@
                 <p><span class="bold">{{ act.role }}</span>, {{ act.name }}</p>
                 <p style="font-style: italic;">{{ act.issuer }}</p>
                 <p>{{ act.where }}</p>
-                <p>{{ act.desc }}</p>
+                <ul>
+                    <li v-for="(desc, descIndex) in act.desc" :key="descIndex">{{ desc }}</li>
+                </ul>
             </div>
         </div>
 
