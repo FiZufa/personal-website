@@ -52,11 +52,11 @@
         <h1>About me 🍃</h1>
         <div>
             <p>I grew up in Nganjuk, East Java, Indonesia, and have been living in Shenzhen, China, for over two years to pursue my undergraduate studies🎓.</p>
-            <p>My hobbies are reading, cooking, running, biking, flexibility training (a.k.a. yoga), picnic, and listening to musics. I like reading novels and books about anything, but my favorite ones are related to psychology 👤, cognitive science 🧠, and child development 👨‍👩‍👧‍👦.  I am not a competitive runner, but I enjoy 2k meters morning run while listening to musics 🏃‍♀️🎶🌞. I like to cook my home dishes, especially Indonesian food! (home dishes really heal my soul) Let me know if you have an interesting recipe—I’d love to learn it! 🍳😋</p>
+            <p>My hobbies are reading, cooking, running, biking, flexibility training (a.k.a. yoga), picnic, and listening to musics. I like reading novels and books about anything, but my favorite ones are related to psychology 👤, cognitive science 🧠, and child development 👨‍👩‍👧‍👦.  I am not a competitive runner, but I enjoy 2k meters morning run while listening to musics 🏃‍♀️🎶🌞. I like to cook my home dishes, especially Indonesian food! (home dishes heal my soul). Let me know if you have an interesting recipe—I’d love to learn it! 🍳😋</p>
             <p>I speak Indonesian (Bahasa) as my native language and use English on a daily basis. I also learn Chinese as my third language!😊</p>
-            <p>Fun Fact #1: I consider myself an old soul, with young eyes, and beautiful mind Lmao 😆</p>
-            <p>Fun Fact #2: I am not really into travel, but at least I visited some cities in China: Guangzhou, Hongkong, Shantao, and Wuhan 🚅
-            <p>Fun Fact #3: I am an introvert, but not so introvert. I enjoy spending time with myself but I also like to connect with people!🙏
+            <p>Fun fact <b>#1</b>: I consider myself an old soul, with young eyes, and beautiful mind. Lmao 😆</p>
+            <p>Fun fact <b>#2</b>: I am not really into travel, but at least I visited some cities in China: Guangzhou, Hongkong, Shantao, and Wuhan 🚅 </p>
+            <p>Fun fact <b>#3</b>: I am an introvert, but not so introvert. I enjoy spending time with myself but I also like to connect with people!💞 </p>
             <p>Feel free to explore my social media or connect with me! ✨</p>
         </div>
 
