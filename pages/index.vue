@@ -56,7 +56,7 @@
             <p>I speak Indonesian (Bahasa) as my native language and use English on a daily basis. I also learn Chinese as my third language!😊</p>
             <p>Fun Fact #1: I consider myself an old soul, with young eyes, and beautiful mind Lmao 😆</p>
             <p>Fun Fact #2: I am not really into travel, but at least I visited some cities in China: Guangzhou, Hongkong, Shantao, and Wuhan 🚅
-            <p>Fun Fact #3: I am an introvert but not so introvert, I enjoy spending time with myself but I also like to connect with people!🙏
+            <p>Fun Fact #3: I am an introvert, but not so introvert. I enjoy spending time with myself but I also like to connect with people!🙏
             <p>Feel free to explore my social media or connect with me! ✨</p>
         </div>
 
