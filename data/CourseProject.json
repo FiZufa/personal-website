@@ -1,4 +1,35 @@
-[
+[   {
+        "name": "A Natural Language Processing Approach for Personality Profiling using Fine-tuning and In-context Learning",
+        "tags": ["NLP", "LLMs", "Data Science"],
+        "description": "A project to classify and analyse user’s personality from textual data from social media using MBTI personality assessment by implementing fine-tuning BERT and prompting (GPT, LlaMa, Deepseek, and Qwen).",
+        "skills": ["Data collection", "Data analysis", "Data preprocessing", "Fine-tuning", "prompting"],
+        "course": "Undergraduate Thesis 2025",
+        "links": {
+            "Github": "https://github.com/FiZufa/llm-personality-profiling",
+            "Slides": "https://drive.google.com/file/d/1Bg1NWSWA6Dezt0jbLjp53GP924wCFZ6p/view?usp=sharing"
+        }
+    },
+    {
+        "name": "Detecting LLMs- and Human-generated Texts using Supervised Fine-tuning and Zero-shot FourierGPT across Diverse Domains",
+        "tags": ["NLP", "LLMs", "Data Science"],
+        "description": "A project of Natural Language Processing course to detect machine-generated or human-generated English and Chinese texts using supervised fine-tuning and zero-shot FourierGPT across diverse domains.",
+        "skills": ["Data collection", "Data analysis", "Data preprocessing", "Fine-tuning"],
+        "course": "Natural Language Processing (CS310) Spring 2025",
+        "links": {
+            "Github": "https://github.com/always-hy/CS310_NLP_Project",
+            "Slides": "https://drive.google.com/file/d/1FVjzXTSVVuuGDTtNjPIp80yT5gEhrvDE/view?usp=sharing"
+        }
+    },
+   {
+        "name": "Mini RAG System: YouTube Transcript Retrieval-Augmented Generation",
+        "description": "A project on Retrieval-Augmented Generation (RAG), combining LLMs with an external knowledge source (e.g., YouTube transcripts), improving both factual correctness and domain relevance.",
+        "skills": ["Data collection", "Data analysis", "Data preprocessing", "prompting", "RAG"],
+        "course": "",
+        "links": {
+            "Github": "https://github.com/FiZufa/mini-RAG",
+            "Slides": "https://drive.google.com/file/d/1bxyPa0XEAGjZ_ELiDIiAm0WuePg37Ihj/view?usp=sharing"
+        }
+    },
     {
       "name": "Stackoverflow Data Analysis",
       "tags": ["Software Engineering", "Java", "Data Analysis"],
@@ -60,5 +91,7 @@
             "Slides": "https://drive.google.com/file/d/1qJaYjqfGPry8lZ3Ra2OD532NtZa2jtjX/view?usp=sharing"
         }
     }
+
 ]
+
   
