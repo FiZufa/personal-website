@@ -31,7 +31,7 @@
                 </div>
 
                 <p>Hi there! 👋</p>
-                <p>I'm a final-year student majoring in Computer Science and Engineering at <a class="pink" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer">Southern University of Science and Technology (SUSTech / 南方科技大学)</a>, China. </p>
+                <p>I'm a recent graduate with a degree in Computer Science and Engineering from <a class="pink" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer">Southern University of Science and Technology (SUSTech / 南方科技大学)</a>, China. </p>
                 <p>Currently, I am interested in <b>AI</b> and <b>data</b>. Specifically, my current learning focus is in Data Science and Natural Language Processing (NLP).</p>
                 <p>I have gained several hands-on experiences from course and group projects in AI, data, software development, and UI/UX.</p>
                 <!-- <p>I am expected to graduate with my bachelor’s degree in June 2025, and I’m actively seeking internship or full-time opportunities to share my ideas and contribute to meaningful projects! 🚀</p> -->
