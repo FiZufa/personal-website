@@ -31,9 +31,10 @@
                 </div>
 
                 <p>Hi there! 👋</p>
-                <p>I'm a recent graduate with a degree in Computer Science and Engineering from <a class="pink" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer">Southern University of Science and Technology (SUSTech / 南方科技大学)</a>, China. </p>
-                <p>Currently, I am interested in <b>AI</b> and <b>data</b>. Specifically, my current learning focus is in Data Science and Natural Language Processing (NLP).</p>
-                <p>I have gained several hands-on experiences from course and group projects in AI, data, software development, and UI/UX.</p>
+                <p>I'm a graduate with a degree in Computer Science and Engineering from <a class="pink" href="https://www.sustech.edu.cn/" target="_blank" rel="noopener noreferrer">Southern University of Science and Technology (SUSTech / 南方科技大学)</a>, China. </p>
+                <p>I am deeply interested in Data Science and Natural Language Processing (NLP).</p>
+                <p>Currently, I am a Machine Learning & NLP Engineer intern at Purple Box AI, focusing on NLP, LLMs, and Retrieval Augmented Generation (RAG).</p>
+                <p>I have gained several hands-on experiences from course and group projects in AI, data, software development, and UI/UX. Feel free to explore my portfolio page ✨</p>
                 <!-- <p>I am expected to graduate with my bachelor’s degree in June 2025, and I’m actively seeking internship or full-time opportunities to share my ideas and contribute to meaningful projects! 🚀</p> -->
             </div>
 
@@ -46,12 +47,9 @@
     <div class="about-me" id="about-me">
         <h1>About me 🍃</h1>
         <div>
-            <p>I grew up in Nganjuk, East Java, Indonesia, and have been living in Shenzhen, China, for over two years to pursue my undergraduate studies🎓.</p>
-            <p>My hobbies are reading, writing, cooking, running, biking, flexibility training (a.k.a. yoga), picnic, and listening to musics. I like reading novels and books about anything, but my favorite ones are related psychology👤. </p>
-            <p>I speak Indonesian (Bahasa) as my native language and use English on a daily basis. I also learn Chinese as my third language!😊</p>
-            <p>Fun fact <b>#1</b>: I like to call myself an old soul! Lmao 😆</p>
-            <p>Fun fact <b>#2</b>: I am not really into travel, but at least I visited some cities in China: Guangzhou, Hongkong, Shantao, and Wuhan 🚅 </p>
-            <p>Fun fact <b>#3</b>: I am an introvert, but not so introvert. I enjoy spending time with myself but I also like to connect with people!💞 </p>
+            <p>I live in Nganjuk, East Java, Indonesia. I also had been living in Shenzhen, China, for over two years to pursue my undergraduate studies🎓.</p>
+            <p>My hobbies are reading, writing, cooking, running, biking, flexibility training (a.k.a. yoga), picnic, and listening to musics. I like reading books related to psychology and philosophy. I'm highly passionate learning psychology and cognitive science as well! 👤🧠 </p>
+            <p>I speak Indonesian (Bahasa) as my native language and use English at workplace. I also learn Chinese as my third language!😊</p>
             <p>Feel free to explore my social media or connect with me! ✨</p>
         </div>
 

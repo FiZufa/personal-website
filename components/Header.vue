@@ -3,7 +3,7 @@
     <div class="menus">
       <button class="home-btn" :class="{ active: $route.path === '/' }" @click="gotoAnotherPage('/')">Home</button>
       <button class="porto-btn" :class="{ active: $route.path === '/portfolio' }" @click="gotoAnotherPage('/portfolio')">Portfolio</button>
-      <button class="cv-btn" :class="{ active: $route.path === '/cv' }" @click="gotoAnotherPage('/cv')">CV</button>
+      <!-- <button class="cv-btn" :class="{ active: $route.path === '/cv' }" @click="gotoAnotherPage('/cv')">CV</button> -->
       <button class="about-btn" :class="{ active: $route.path === '/' && $route.hash === '#about-me' }" @click="gotoAnotherPage('/#about-me')">About me🍃</button>
     </div>
 
